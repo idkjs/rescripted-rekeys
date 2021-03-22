@@ -1,6 +1,5 @@
-open Dom_utils
-
-CSS_utils.requireCSS("./App.css")
+open DomUtils
+CssUtils.requireCSS("./App.css")
 
 module KeyInfo = {
   type keyInfo = {

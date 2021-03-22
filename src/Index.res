@@ -1,6 +1,6 @@
-open Dom_utils
+open DomUtils
 
-CSS_utils.requireCSS("./Index.css")
+CssUtils.requireCSS("./Index.css")
 
 let init = _ =>
   Document.addEventListener("keydown", evt => ReactDOMRe.renderToElementWithId(<App evt />, "root"))
