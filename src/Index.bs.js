@@ -2,7 +2,7 @@
 
 import * as App from "./App.bs.js";
 import * as React from "react";
-import * as ReactDOMRe from "reason-react/src/legacy/ReactDOMRe.js";
+import * as ReactDOMRe from "reason-react/src/legacy/ReactDOMRe.bs.js";
 import * as Caml_option from "bs-platform/lib/es6/caml_option.js";
 import * as ReactDomExperimental from "./bindings/ReactDomExperimental.bs.js";
 
