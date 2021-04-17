@@ -14,7 +14,7 @@ pp.re# dependencies
 /types
 .merlin
 _esy
-
+src/**/*/bs.js
 # misc
 .DS_Store
 .env.local
